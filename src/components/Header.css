@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+.headerText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.headerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

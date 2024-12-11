@@ -1,15 +1,20 @@
-import { useState } from 'react'
-import Form from './components/Form'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import "./App.css";
+import Footer from "./components/Footer";
+import Form from "./components/Form";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
-<>
-<Form/>
-</>
+  return (
+    <>
+      <Header />
+      <Hero />
+      <Form/>
+      <Footer />
 
-  
+    </>
+  );
 }
 
-export default App
+export default App;
